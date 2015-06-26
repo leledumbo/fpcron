@@ -25,6 +25,8 @@ After all tasks have been executed, the task list file is written back with upda
 
 # Task List File Format
 <16 digits precision floating point, denoting last execution time> <task execution interval in seconds> <task command>
+
 example:
+
 42182.2263973958324641 1 /bin/bash -c 'echo "Hello"'
 

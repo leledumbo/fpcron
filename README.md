@@ -24,7 +24,7 @@ For each task, it will be computed whether last time the task was executed + its
 After all tasks have been executed, the task list file is written back with updated last execution time.
 
 # Task List File Format
-<16 digits precision floating point, denoting last execution time> <task execution interval in seconds> <task command>
+&lt;16 digits precision floating point, denoting last execution time&gt;&lt;space, at least one&gt;&lt;task execution interval in seconds&gt;&lt;space, at least one&gt;&lt;task command&gt;
 
 example:
 
